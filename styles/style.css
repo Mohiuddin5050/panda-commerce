@@ -94,3 +94,170 @@ nav{
     height: 378px;
     padding: 15px;
 }
+/* categories section */
+
+.categories{
+    margin: 50px auto;
+}
+.common-categories{
+    color: #1F1F1F;
+    font-size: 36px;
+    font-family: 600;
+    margin-bottom: 20px;
+}
+.categories-card-container{
+    display: flex;
+    gap: 26px;
+    width: 100%;
+}
+.category-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 30px;
+    flex: 1;
+}
+.category-card img{
+    width: 90px;
+    height: 90px;
+
+}
+.category-card h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.category-card-1{
+     background:  linear-gradient(
+    151.85deg,
+    rgb(255, 156, 53) 14.537%,
+    rgb(255, 208, 25) 84.486%
+  );
+}
+.category-card-2{
+    background: linear-gradient(
+    180deg,
+    rgb(255, 88, 155) -0.006%,
+    rgb(255, 19, 111) 99.994%
+  );
+  padding-left: 50px;
+}
+
+.category-card-3{
+     background: linear-gradient(
+    170.38deg,
+    rgb(66, 137, 255) 15.416%,
+    rgb(63, 7, 248) 74.29%
+  );
+}
+
+/* Shoe & Backpack */
+.shoe-section-parent{
+    background: rgb(244, 244, 244);
+    /* margin-bottom: 50px; */
+    
+}
+.card-parent{
+    padding-top: 30px;
+}
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    padding: ;
+}
+.card-title p{
+    color: rgb(255, 157, 0);
+font-size: 20px;
+font-weight: 500;
+}
+.shoe-card-container{
+    display: flex;
+    gap: 20px;
+}
+.shoe-card{
+    background: rgb(255, 255, 255);
+     border-radius: 10px;
+  text-align: center;
+  padding: 25px;
+  box-shadow: 2px 0px 8px 0px rgb(0 0 0 / 15%);
+    
+    
+}
+.shoe-card h2{
+    color: rgb(31, 31, 31);
+font-size: 24px;
+font-weight: 600;
+}
+.shoe-card p{
+    color: rgb(78, 78, 78);
+    padding-top: 16px;
+}
+
+.shoe-price{
+    display: block;
+    color: rgb(0, 0, 0);
+font-size: 24px;
+font-weight: 500;
+padding: 20px 0;
+}
+.shoe-card .panda-btn{
+    background: rgb(0, 0, 0);
+}
+.shoe-img{
+     width: 300px;
+    height: 200px;
+}
+.img-size{
+     width: 300px;
+    height: 300px;
+}
+.margin{
+    margin-top: 70px;
+    padding-bottom: 70px;
+    
+}
+
+/* contact-us */
+.contact-us-parent{
+    background: rgb(255, 242, 241);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    /* height: 400px; */
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+.input-type{
+    display: flex;
+    justify-content: center;
+}
+.input-type input{
+    background: rgb(255, 255, 255);
+    border: none;
+    padding: 15px 152px 15px 15px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 20px;
+}
+.contact-us{
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.contact-us h2{
+    color: rgb(31, 31, 31);
+font-size: 30px;
+font-weight: 600;
+
+}
+.contact-us p{
+    color: rgb(112, 112, 112);
+font-size: 16px;
+font-weight: 500;
+padding-bottom: 15px;
+}
+.input-type .panda-btn{
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    font-size: 20px;
+}
