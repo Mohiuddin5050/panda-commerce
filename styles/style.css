@@ -1,11 +1,23 @@
 *{
     box-sizing: border-box;
-    /* margin: 0; */
-    /* padding: 0; */
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    
 }
-.continer{
+
+.container{
     max-width: 1200px;
     margin: auto;
+}
+.panda-btn{
+    background-color: #FF589BFF
+;
+color: white;
+padding: 14px 35px;
+border: none;
+border-radius: 6px;
+font-weight: 500;
 }
 
 
@@ -13,7 +25,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding top: 20px;
+    padding: 20px 20px;
+    
+    
 }
 
 .search-parent{
@@ -43,4 +57,40 @@ nav{
 .nav-items a{
     text-decoration: none;
     color: #707070;
+}
+
+/* banat section */
+.banner{
+    background-color: #FEEAE9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.banner h2{
+    font-size: 56px;
+    font-weight: 700;
+    color: #1F1F1F;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.banner p{
+    color: #4E4E4E;
+    /* max-width: 500px; */
+}
+.banner-price{
+    color: #FF136F;
+    font-size: 48px;
+    font-weight: 600;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.banner img{
+    width: 402px;
+    height: 378px;
+    padding: 15px;
 }
